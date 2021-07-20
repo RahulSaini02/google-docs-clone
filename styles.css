@@ -1,0 +1,17 @@
+@tailwind components;
+@tailwind base;
+@tailwind variants;
+
+@layer components {
+  .option {
+    @apply cursor-pointer hover:bg-gray-100 rounded-lg transition duration-200 ease-out p-2;
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
